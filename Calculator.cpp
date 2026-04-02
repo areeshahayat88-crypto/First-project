@@ -46,10 +46,6 @@ if (num1 > num2){
     cout << "Both numbers are equal.";
 }
 break;
-
-case '^':
-cout << num1 << "^" << num2 << "=" << pow(num1,num2);
-break;
   
 default:
 // Error message for invalid operator
